@@ -1,0 +1,41 @@
+#my_logo {
+    height: 50px;
+    width: 50px;
+}
+
+/* Search for bootstrap option */
+.navbar_items {
+    color: #990000ef;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* Extra Small */
+@media screen and (max-width: 575.98px) {
+
+}
+/* Small */
+@media screen and (min-width: 576px) {
+    
+}
+/* Medium */
+@media screen and (min-width: 768px) {
+    
+}
+/* Large */
+@media screen and (min-width: 992px) {
+    
+}
+/* Extra Large */
+@media screen and (min-width: 1200px) {
+    
+}
