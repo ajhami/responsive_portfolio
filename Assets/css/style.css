@@ -1,14 +1,49 @@
-#my_logo {
+body {
+    background-color: #4b4747;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.my_logo {
     height: 50px;
     width: 50px;
 }
 
-/* Search for bootstrap option */
 .navbar_items {
-    color: #990000ef;
-    display: inline-block;
     list-style-type: none;
-    margin-left: 25px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 35px;
+    font-size: 20px;
+}
+
+.row_spacing {
+    height: 500px;
+}
+
+.about_box {
+    background-color: #0000002f;
+    color: #ffebcd;
+}
+
+hr {
+    background-color: #ffebcd;
+}
+
+.profile_photo {
+    float: left;
+    height: 60%;
+    margin-right: 15px;
+    width: 80%;
+}
+
+.about_text {
+    font-size: 22px;
 }
 
 
@@ -17,25 +52,25 @@
 
 
 
-
-
-/* Extra Small */
+/*
+Extra Small
 @media screen and (max-width: 575.98px) {
 
 }
-/* Small */
+Small
 @media screen and (min-width: 576px) {
     
 }
-/* Medium */
+Medium
 @media screen and (min-width: 768px) {
     
 }
-/* Large */
+Large
 @media screen and (min-width: 992px) {
     
 }
-/* Extra Large */
+Extra Large
 @media screen and (min-width: 1200px) {
     
 }
+*/
