@@ -14,19 +14,22 @@ body {
 
 .navbar_items {
     list-style-type: none;
+    color: #ffebcd;
 }
 
 .nav-item {
     display: inline-block;
-    margin-right: 35px;
+    margin-left: 19px;
     font-size: 20px;
 }
 
+/*
 .row_spacing {
     height: 500px;
 }
+*/
 
-.about_box {
+.box_colorization {
     background-color: #0000002f;
     color: #ffebcd;
 }
@@ -46,13 +49,59 @@ hr {
 .about_text {
     font-size: 24px;
 }
+/*
+.navbar-brand.col-sm-12, .navbar_items.col-sm-12 {
+    text-align: center;
+}
+*/
 
+.navbar-brand.col-md-6 {
+    text-align: left;
+}
 
+.navbar_items.col-md-5 {
+    text-align: right;
+}
 
+input, textarea {
+    margin-bottom: 15px;
+}
+/*
+btn-danger is used soley for color scheme and 
+adjusted to function as a submit button.
+*/ 
+.btn-danger {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
 
+.portfolio_content {
+    text-align: center;
+}
 
+.portfolio_img {
+    height: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 70%;
+}
 
+.port_img_banner {
+    background-color: #ac0909bb;
+    bottom: 25%;
+    color: #ffebcd;
+    height: 25px;
+    left: 15%;
+    position: relative;
+    width: 70%;
+}
 
+/* SWitching to small screen */
+@media screen and (max-width: 767.98px) {
+    .navbar-brand.col-sm-12, .navbar_items.col-sm-12 {
+        text-align: center;
+    }
+}
 /*
 Extra Small
 @media screen and (max-width: 575.98px) {

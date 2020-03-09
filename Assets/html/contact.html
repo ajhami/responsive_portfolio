@@ -14,27 +14,56 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand col-md-6 col-sm-12" href="#">
                 <img class="my_logo" src="./../Images/my_basic_logo_1c.png" alt="logo">
             </a>
-            <ul class="navbar_items active">
+            <ul class="navbar_items active col-md-5 col-sm-12">
                 <li class="nav-item">
                     <a href="./../../index.html" style="color: #ffebcd;">
                         About
                     </a> 
                 </li>
                 <li class="nav-item">
-                    <a href="portfolio.html" style="color: #ffebcd;">
+                    <a href="./portfolio.html" style="color: #ffebcd;">
                         Portfolio
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" style="color: #ffebcd;">
+                    <a href="./contact.html" style="color: #ffebcd;">
                         Contact
                     </a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <!-- Contact Form -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 box_colorization">
+                <h1>
+                    Contact
+                </h1>
+                <hr>
+                <label>
+                    Name
+                </label>
+                <input class="col-12" placeholder="John Smith"></input>
+                <label>
+                    Email
+                </label>
+                <input class="col-12" placeholder="example@gmail.com"></input>
+                <label>
+                    Message
+                </label>
+                <textarea id="form_message" class="form-control" placeholder="Input your message here" rows="5"></textarea>
+                <a class="btn btn-danger btn-md active" role="button" aria-pressed="true" href="./contact.html">
+                    Submit
+                </a>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
