@@ -1,3 +1,12 @@
+/*
+    @ Alexander James Hamilton
+    style.css
+*/
+
+
+
+/* css properties used across all three html files */
+
 body {
     background-color: #4b4747;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -23,12 +32,6 @@ body {
     font-size: 20px;
 }
 
-/*
-.row_spacing {
-    height: 500px;
-}
-*/
-
 .box_colorization {
     background-color: #0000002f;
     color: #ffebcd;
@@ -37,6 +40,26 @@ body {
 hr {
     background-color: #ffebcd;
 }
+
+.navbar-brand.col-md-6 {
+    text-align: left;
+}
+
+.navbar_items.col-md-5 {
+    text-align: right;
+}
+
+/* Switching to small screen */
+@media screen and (max-width: 767.98px) {
+    .navbar-brand.col-sm-12, .navbar_items.col-sm-12 {
+        text-align: center;
+    }
+}
+
+
+
+/* About page css properties */
+
 
 .profile_photo {
     float: left;
@@ -49,31 +72,24 @@ hr {
 .about_text {
     font-size: 24px;
 }
-/*
-.navbar-brand.col-sm-12, .navbar_items.col-sm-12 {
-    text-align: center;
-}
-*/
 
-.navbar-brand.col-md-6 {
-    text-align: left;
-}
 
-.navbar_items.col-md-5 {
-    text-align: right;
-}
+
+/* Contact page css properties */
 
 input, textarea {
     margin-bottom: 15px;
 }
-/*
-btn-danger is used soley for color scheme and 
-adjusted to function as a submit button.
-*/ 
+
+/* btn-danger is used soley for color scheme and adjusted to function as a submit button. */ 
 .btn-danger {
     margin-bottom: 15px;
     margin-top: 10px;
 }
+
+
+
+/* Portfolio page css properties */
 
 .portfolio_content {
     text-align: center;
@@ -95,32 +111,3 @@ adjusted to function as a submit button.
     position: relative;
     width: 70%;
 }
-
-/* SWitching to small screen */
-@media screen and (max-width: 767.98px) {
-    .navbar-brand.col-sm-12, .navbar_items.col-sm-12 {
-        text-align: center;
-    }
-}
-/*
-Extra Small
-@media screen and (max-width: 575.98px) {
-
-}
-Small
-@media screen and (min-width: 576px) {
-    
-}
-Medium
-@media screen and (min-width: 768px) {
-    
-}
-Large
-@media screen and (min-width: 992px) {
-    
-}
-Extra Large
-@media screen and (min-width: 1200px) {
-    
-}
-*/
